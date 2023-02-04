@@ -25,7 +25,7 @@ def odd_even():
 
 @app.route('/observerr')
 def observe():
-    return render_template('base.html', подстановка="киуаик")
+    return render_template('base.html', подстановка="ВЕЛИКОЕ ПРОВОЗГЛАШЕНИЕ")
 
 
 if __name__ == '__main__':
